@@ -1,0 +1,57 @@
+{
+  "workbench.colorTheme": "Dracula",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.formatOnSave": true,
+  "editor.parameterHints.enabled": false,
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "editor.fontSize": 14,
+  "terminal.integrated.fontSize": 14,
+  "editor.tabSize": 2,
+  // "editor.renderLineHighlight": "gutter",
+  "eslint.packageManager": "yarn",
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    {
+      "language": "javascript",
+      "autoFix": true
+    },
+    {
+      "language": "javascriptreact",
+      "autoFix": true
+    },
+    {
+      "language": "typescript",
+      "autoFix": true
+    },
+    {
+      "language": "typescriptreact",
+      "autoFix": true
+    }
+  ],
+  "files.associations": {
+    ".sequelizerc": "javascript"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "javascript.suggest.autoImports": false,
+  "typescript.suggest.autoImports": false,
+  "breadcrumbs.enabled": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "files.autoSave": "afterDelay",
+  "typescript.tsserver.log": "verbose",
+  "workbench.activityBar.visible": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+}
