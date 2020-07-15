@@ -1,38 +1,52 @@
 {
-  "workbench.colorTheme": "Dracula",
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "workbench.iconTheme": "material-icon-theme",
   "editor.formatOnSave": true,
   "editor.parameterHints.enabled": false,
-  "editor.rulers": [
-    80,
-    120
-  ],
+  "editor.rulers": [80, 120],
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune"
+  },
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock"
+  },
+  "[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[javascriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
   "editor.fontSize": 14,
   "terminal.integrated.fontSize": 14,
   "editor.tabSize": 2,
-  // "editor.renderLineHighlight": "gutter",
+  "editor.renderLineHighlight": "gutter",
   "eslint.packageManager": "yarn",
-  "eslint.autoFixOnSave": true,
-  "eslint.validate": [
-    {
-      "language": "javascript",
-      "autoFix": true
-    },
-    {
-      "language": "javascriptreact",
-      "autoFix": true
-    },
-    {
-      "language": "typescript",
-      "autoFix": true
-    },
-    {
-      "language": "typescriptreact",
-      "autoFix": true
-    }
-  ],
   "files.associations": {
     ".sequelizerc": "javascript"
   },
@@ -46,10 +60,7 @@
   "javascript.suggest.autoImports": false,
   "typescript.suggest.autoImports": false,
   "breadcrumbs.enabled": true,
-  "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "files.autoSave": "afterDelay",
+  "files.autoSave": "off",
   "typescript.tsserver.log": "verbose",
   "workbench.activityBar.visible": true,
   "editor.suggestSelection": "first",
@@ -58,4 +69,13 @@
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.rendererType": "dom",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "window.zoomLevel": -1,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorTheme": "Dracula"
 }
